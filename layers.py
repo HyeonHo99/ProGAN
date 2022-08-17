@@ -1,7 +1,6 @@
 import torch
 import torch.nn as nn
-import torch.nn.functional as F
-from math import log2
+
 
 """
 Weight Scaled Convolution : Equalized learning rate applied on conv2d layer / Used as initial conv for Generator and Discriminator
